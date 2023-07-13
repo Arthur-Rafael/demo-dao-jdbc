@@ -124,7 +124,6 @@ public class VendedorDaoJDBC implements VendedorDao{
 			DB.closeStatement(st);
 			DB.closeResultSet(rs);
 		}
-		
 	}
 
 	private Vendedor instanciaVendedor(ResultSet rs, Departamento dep) throws SQLException {
